@@ -146,3 +146,41 @@ print("#"*10)
 llist.removelast()
 
 print(llist)
+
+
+## PENJELASAN
+"""
+Dalam kelas linkedlist di atas, kita hanya mengimplementasikan metode-metode berikut:
+● isempty(), digunakan untuk memeriksa apakah list kosong atau tidak.
+● addfirst(), digunakan untuk menambah simpul baru ke dalam list pada posisi pertama.
+● getfirst(), digunakan untuk mendapatkan elemen yang terdapat pada simpul pertama.
+● removefirst(), digunakan untuk menghapus simpul pertama. 
+● addlast(), digunakan untuk menambah simpul baru ke dalam list pada posisi terakhir.
+● getlast(), digunakan untuk mendapatkan elemen yang terdapat pada simpul terakhir.
+● removelast(), digunakan untuk menghapus simpul terakhir. 
+● __str__(), digunakan untuk menampilkan elemen-elemen list dalam bentuk string.
+● repr___(), digunakan untuk merepresentasikan objek dari kelas linkedlist sebagai string. 
+Metode ini sebenarnya memanggil metode __str__(). Dengan mengimplementasikan metode repr (), 
+Anda dapat memperoleh nilai yang dikembalikan oleh metode __str__() dengan memanggil fungsi repr();
+atau cukup dengan memanggil nama objek dari kelas linkedlist. Dengan demikian, elemen-elemen di 
+dalam list dapat ditampilkan menggunakan perintah repr (1list) atau llist (dengan asumsi llist 
+adalah referensi yang menunjuk ke objek dari kelas linkedlist).
+
+    Anda dapat mengembangkan sendiri kelas linkedlist di atas dengan cara mengimplementasikan 
+metode-metode lain yang diperlukan, misalnya:
+● contains(element), metode untuk memeriksa apakah metode contains(element), element ada di 
+dalam list atau tidak;
+● indexof(element), metode untuk mengembalikan indeks dari simpul yang berisi element;
+● getelement(index), metode untuk mengembalikan objek yang terkandung di dalam simpul pada 
+posisi ke-index;
+● setelement(index, element), metode untuk mengubah objek yang terkandung di dalam simpul 
+pada posisi ke-index; add(index, element), metode untuk menyisipkan simpul baru pada posisi 
+ke-index.
+● remove(index), metode untuk menghapus simpul yang terdapat pada posisi ke-index.
+● clear(), metode untuk menghapus semua simpul di dalam list; dan lain-lain.
+
+Selain metode, dalam kelas linkedlist kita juga mendefinisikan atribut-atribut berikut:
+● head(kepala), referensi yang digunakan untuk menunjuk ke simpul pertama di dalam list.
+● tail(ekor), referensi yang digunakan untuk menunjuk ke simpul terakhir di dalam list.
+● size, digunakan untuk menyatakan jumlah simpul di dalam list.
+"""
