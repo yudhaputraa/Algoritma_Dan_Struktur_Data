@@ -228,3 +228,22 @@ dahulu simpul bersangkutan ke dalam variabel temp, kemudian menghapusnya secara 
 del. Ini bersifat opsional; bisa dilakukan, bisa juga tidak. Alasannya, interpreter Python secara otomatis 
 akan membuang objekobjek yang sudah tidak diacu oleh referensi manapun.
 """
+
+## Implementasi metode addlast()
+"""
+Metode addlast() digunakan untuk menambah simpul baru ke dalam list pada posisi paling akhir. Jika pada 
+saat pemanggilan metode addlast() list masih dalam keadaan kosong, maka simpul baru yang ditambahkan akan 
+menjadi satu-satunya simpul di dalam list. Artinya, simpul tersebut akan berperan sebagai simpul pertama 
+(ditunjuk oleh referensi head) dan simpul terakhir (ditunjuk oleh referensi tail). Jika list sudah memiliki 
+simpul, pemanggilan addlast() akan mengaitkan simpul terakhir ke simpul baru melalui baris kode berikut:
+
+self.tail.next = newnode
+
+Setelah itu, referensi tail dipindah untuk menunjuk ke simpul baru melalui kode berikut: m
+
+self.tail = self.tail.next
+
+Terakhir, metode addlast () akan mengubah jumlah simpul di dalam list melalui kode berikut:
+
+self.size += 1
+"""
