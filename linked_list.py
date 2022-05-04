@@ -219,3 +219,12 @@ Metode getfirst() akan mengembalikan elemen atau objek yang terkandung pada simp
 masih dalam keadaan kosong, pemanggilan getfirst() tidak akan menghasilkan apa-apa (direpresentasikan dengan 
 nilai None).
 """
+
+## Implementasi metode removefirst()
+"""
+Metode removefirst() digunakan untuk menghapus simpul pertama. Proses penghapusan ini akan menyebabkan 
+referensi head berpindah ke simpul berikutnya (jika ada). Sebelum dihapus, Anda dapat menampung terlebih 
+dahulu simpul bersangkutan ke dalam variabel temp, kemudian menghapusnya secara eksplisit dengan perintah 
+del. Ini bersifat opsional; bisa dilakukan, bisa juga tidak. Alasannya, interpreter Python secara otomatis 
+akan membuang objekobjek yang sudah tidak diacu oleh referensi manapun.
+"""
