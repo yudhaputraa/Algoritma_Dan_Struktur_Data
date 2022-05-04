@@ -213,3 +213,9 @@ juga simpul terakhir.
     self.tail = self.head
 """
 
+## Implementasi metode getfirst()
+"""
+Metode getfirst() akan mengembalikan elemen atau objek yang terkandung pada simpul pertama. Jika list 
+masih dalam keadaan kosong, pemanggilan getfirst() tidak akan menghasilkan apa-apa (direpresentasikan dengan 
+nilai None).
+"""
