@@ -184,3 +184,32 @@ Selain metode, dalam kelas linkedlist kita juga mendefinisikan atribut-atribut b
 ● tail(ekor), referensi yang digunakan untuk menunjuk ke simpul terakhir di dalam list.
 ● size, digunakan untuk menyatakan jumlah simpul di dalam list.
 """
+
+## Implementasi metode addfirst()
+"""
+Untuk menambah simpul baru di posisi pertama list, mula-mula kita perlu membuat simpul yang akan ditambahkan 
+dengan cara membuat objek dari kelas node. Dalam contoh ini, kita menamai objek tersebut dengan nama newnode. 
+Atribut next dari objek newnode perlu diarahkan ke objek node yang sedang ditunjuk oleh head. Melalui cara 
+seperti ini, newnode akan berada di awal list.
+
+newnode = node (element, self.head)
+
+Selanjutnya, kita perlu mengubah referensi head untuk menunjuk ke newnode. Ini menyatakan bahwa simpul 
+awal di dalam list telah diganti dengan newnode.
+
+self.head = newnode
+
+Penambahan simpul juga akan mempengaruhi jumlah simpul di dalam list (bertambah satu). Kita dapat menambah 
+jumlah atau ukuran simpul di dalam list menggunakan baris kode berikut:
+
+self.size += 1 +
+
+Jika sebelum pemanggilan metode addfirst() list masih dalam keadaan kosong, maka newnode akan berperan 
+sebagai satu-satunya simpul yang terdapat di dalam list. Oleh karena itu, referensi tail juga harus diarahkan 
+ke objek yang sedang ditunjuk oleh referensi head. Artinya, newnode akan berperan sebagai simpul pertama dan 
+juga simpul terakhir.
+
+28 if self.tail = None: 
+    self.tail = self.head
+"""
+
