@@ -247,3 +247,9 @@ Terakhir, metode addlast () akan mengubah jumlah simpul di dalam list melalui ko
 
 self.size += 1
 """
+
+## Implementasi metode getlast()
+"""
+Metode getlast() akan mengembalikan elemen atau objek yang terkandung pada simpul terakhir. Jika list 
+belum memiliki simpul, pemanggilan getlast () akan menghasilkan nilai None.
+"""
