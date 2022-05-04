@@ -253,3 +253,19 @@ self.size += 1
 Metode getlast() akan mengembalikan elemen atau objek yang terkandung pada simpul terakhir. Jika list 
 belum memiliki simpul, pemanggilan getlast () akan menghasilkan nilai None.
 """
+
+## Implementasi metode removelast()
+"""
+Metode removelast() digunakan untuk menghapus simpul terakhir dalam list (untuk list yang sudah memiliki 
+simpul). Jika list hanya memiliki satu simpul, pemanggilan metode removelast() akan menyebabkan referensi 
+head dan tail bernilai None serta jumlah simpul menjadi 0.
+
+self.head = None
+self.tail = None
+self.size = 0
+
+Jika jumlah simpul di dalam list lebih dari satu, maka kita perlu memindahkan referensi tail untuk 
+menunjuk ke simpul yang berada sebelum simpul terakhir. Ini berarti bahwa simpul terakhir akan dihapus 
+dan simpul sebelum simpul terakhir dijadikan sebagai simpul terakhir. Pemanggilan metode removelast() akan 
+menyebabkan jumlah simpul di dalam list berkurang satu.
+"""
