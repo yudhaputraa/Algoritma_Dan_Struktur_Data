@@ -22,3 +22,16 @@ class llstack:
     # menambah jumlah simpul di dalam stack
     def __len__(self):
         return self.size
+    # menambah simpul pd posisi terakhir
+    def push(self, element):
+        # membuat simpul baru (newnode.next berisi None)
+        newnode = node(element)
+        if self.tail == None: # jika stack masih kosong
+            self.head = newnode # head menujuk ke simpul baru
+            self.tail = self.head # tail menujukan ke had
+        else: # jika stack sudah berisi simpul
+            # menghubungankan simpul terakhir dgn simpul baru
+            self.tail.next = newnode
+            # memindah tail utk menujukan ke impul baru
+            self.tail = self.tail.next
+        self.size += 1
