@@ -19,3 +19,6 @@ class llstack:
     # memeriksa ukuran stack, kosong atau tdk
     def isempty(self):
         return self.size
+    # menambah jumlah simpul di dalam stack
+    def __len__(self):
+        return self.size
