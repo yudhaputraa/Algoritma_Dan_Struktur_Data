@@ -16,3 +16,6 @@ class llstack:
         # referensi yg menujukan ke simpul terakhir
         self.tail = None
         self.size = 0   # mula-mula stack kosong
+    # memeriksa ukuran stack, kosong atau tdk
+    def isempty(self):
+        return self.size
