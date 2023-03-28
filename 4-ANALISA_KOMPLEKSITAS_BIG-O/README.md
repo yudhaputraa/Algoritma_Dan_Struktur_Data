@@ -1,0 +1,8 @@
+# ANALISA KOMPLEKSITAS BIG-O ATAU WAKTU
+Kompleksitas waktu adalah konsep dalam ilmu komputer yang mengukur berapa lama waktu yang dibutuhkan oleh sebuah algoritma untuk menyelesaikan suatu masalah atau tugas. Kompleksitas waktu biasanya diukur dalam notasi Big O, yang menunjukkan berapa banyak operasi yang dilakukan oleh algoritma dalam kaitannya dengan ukuran masukan.
+
+Notasi Big O menggambarkan seberapa cepat laju pertumbuhan waktu eksekusi algoritma ketika ukuran masukan (n) meningkat. Misalnya, jika suatu algoritma memerlukan waktu yang berbanding lurus dengan ukuran masukan, kompleksitas waktu akan disebut O(n). Jika suatu algoritma memerlukan waktu yang berbanding dengan pangkat dua dari ukuran masukan, kompleksitas waktu akan disebut O(n^2).
+
+Kompleksitas waktu adalah konsep penting dalam pemrograman karena dapat membantu pengembang perangkat lunak memilih algoritma yang paling efisien untuk menyelesaikan suatu masalah atau tugas. Algoritma dengan kompleksitas waktu yang lebih rendah cenderung lebih cepat dan lebih efisien daripada algoritma dengan kompleksitas waktu yang lebih tinggi ketika menangani masalah yang sama.
+
+Namun, perlu diingat bahwa kompleksitas waktu hanya memberikan gambaran kasar tentang kinerja suatu algoritma. Beberapa faktor lain seperti kompleksitas ruang, jenis masukan, dan implementasi algoritma juga dapat mempengaruhi waktu eksekusi algoritma. Oleh karena itu, kompleksitas waktu hanya satu dari beberapa faktor yang harus dipertimbangkan ketika memilih algoritma yang tepat untuk menyelesaikan suatu masalah atau tugas.
