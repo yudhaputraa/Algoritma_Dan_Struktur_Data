@@ -1,5 +1,7 @@
 # Catatan
 ## Pendahuluan
+Struktur Data dan Algoritma merupakan salah satu materi pada Teknik Informatika yang merupakan pendahuluan atau langkah awal untuk menuju ke pemrograman berorientasi objek
+
 Asal mula kata ‘algoritma’ adalah dari kata ‘algorism’ dalam kamus Webster tahun 1957 yang berarti proses menghitung dengan angka arab. Algorism merupakan nama penulis buku Arab yang berjudul “The book of restoration and reduction”. Kata algorism kemudian berubah menjadi kata algoritm agar tidak diinterpretasikan dengan aritmatik. Akhirnya dalam bahasa Indonesia kata algorithm diserap menjadi algoritma.
 
 Menurut Donald E. Knuth dalam buku “The Art of Computer
@@ -75,7 +77,61 @@ Instruksi dikerjakan jika suatu kondisi tertentu dipenuhi. Dengan adanya proses 
 ### Proses pengulangan (looping)
 Proses melakukan eksekusi suatu program secara berulang-ulang pada suatu blok instruksi tertentu yang terkendali.
 
-### Notasi Algoritma
+### Outlines
+    * Struktur Data Statis dan Dinamis
+    * Struktur Data Linear dan Non Linear
+    * Array
+    * Structure
+    * Pointers
+    * Linked List
+
+### Struktur Data Statis
+Dalam struktur data Statis, ukuran struktur ditetapkan. Isi dari struktur data dapat dimodifikasi tetapi tanpa mengubah ruang memori yang dialokasikan padanya.
+
+### Struktur Data Dinamis
+Dalam struktur data dinamis, ukuran struktur tidak tetap dan dapat dimodifikasi selama operasi dilakukan di atasnya. Struktur data dinamis dirancang untuk memfasilitasi perubahan struktur data dalam runtime. Ukuran memori berubah tergantung perubahan data saat runtime
+
+### Struktur Data Linear
+1. Adalah Struktur data dimana elemen data disusun secara berurutan atau linier atau berurutan
+2. Dalam struktur data linier, satu level dilibatkan. Oleh karena itu,proses hanya berupa proses tunggal. 
+3. Struktur data linier mudah diimplementasikan karena memori komputer diatur secara linier.
+4. Contoh :
+    * Array
+    * LinkedList
+    * Stack
+    * Queue
+
+### Struktur Data Non Linear
+1. Adalah Struktur data yang elemen datanya tidak tersusun secara berurutan atau linier. 
+2. Struktur data non-linier tidak mudah diimplementasikan dibandingkan dengan struktur data linier. 
+3. Menggunakan memori komputer secara efisien dibandingkan dengan struktur data linier. 
+4. Contoh:
+    * Tree
+    * Graph
+
+### Array
+1. Array adalah kumpulan elemen-eleman data yang memiliki susunan tertentu dan teratur.
+2. Jumlah elemen terbatas dan mempunyai tipe yang sama
+3. Jenis Array
+    * Array Satu Dimensi
+    * Array Dua Dimensi
+    * Array Tiga Dimensi
+
+### Structure
+Structure adalah koleksi berbagai variabel yang memiliki berbagai tipe data yang berbeda di dalam satu nama. 
+
+### Pointers
+Pointer adalah variabel yang menyimpan alamat memori sebagai nilainya.
+
+Variabel pointer menunjuk ke tipe data (seperti int atau string) dari tipe yang sama, dan dibuat dengan operator *. 
+
+### Linked List
+* Struktur data linked list mencakup serangkaian node yang terhubung. Setiap node menyimpan data dan alamat node berikutnya.
+* Setiap node struct memiliki item data dan penunjuk ke node struct lain. Harus ada alokasi memori untuk setiap struct.
+* Linked List operations : Traverse, Insert, Delete
+
+
+## Notasi Algoritma
 1. Notasi algoritma bukan merupakan notasi bahasa pemrograman, namun notasi ini dapat diterjemahkan ke dalam berbagai bahasa pemrograman.
 2. Meskipun notasi algoritma tidakberbentuk baku seperti notasi bahasa pemrograman, namun konsistensi terhadap notasi perlu diperhatikan untuk menghindari terjadinya kekeliruan.
 3. Bentuk notasi algoritma:
