@@ -77,9 +77,9 @@ Instruksi dikerjakan jika suatu kondisi tertentu dipenuhi. Dengan adanya proses 
 2. Notasi algoritma bukan merupakan notasi bahasa pemrograman, namun notasi ini dapat diterjemahkan ke dalam berbagai bahasa pemrograman.
 3. Meskipun notasi algoritma tidakberbentuk baku seperti notasi bahasa pemrograman, namun konsistensi terhadap notasi perlu diperhatikan untuk menghindari terjadinya kekeliruan.
 4. Bentuk notasi algoritma:
-* Uraian deskriptif
-* Diagram-alir (flowchart)
-* Pseudocode
+    * Uraian deskriptif
+    * Diagram-alir (flowchart)
+    * Pseudocode
 
 ## Evaluasi
 Untuk mengevalusi pemahaman tentang algoritma, berikut diberikan
