@@ -39,36 +39,37 @@ Ulangi langkah berikutnya untuk setiap simpul dalam linked list:
 2. Atur pointer curr untuk menunjuk ke simpul sebelumnya dalam linked list
 3. Atur pointer prev untuk menunjuk ke simpul saat ini
 4. Pindahkan pointer curr dan next ke simpul berikutnya dalam linked list
-Atur pointer head untuk menunjuk ke simpul terakhir dalam linked list (simpul yang sebelumnya menjadi simpul terakhir setelah dibalik)
-Algoritma untuk menggabungkan dua linked list
-Buat linked list baru
-Mulai dari simpul pertama dalam linked list pertama
-Ulangi langkah berikutnya untuk setiap simpul dalam linked list pertama: buat simpul baru dan masukkan data dari simpul saat ini, lalu tambahkan simpul baru ke linked list baru
-Mulai dari simpul pertama dalam linked list kedua
-Ulangi langkah berikutnya untuk setiap simpul dalam linked list kedua: buat simpul baru dan masukkan data dari simpul saat ini, lalu tambahkan simpul baru ke linked list baru
-Kembalikan linked list baru yang berisi kedua linked list yang digabungkan
+5. Atur pointer head untuk menunjuk ke simpul terakhir dalam linked list (simpul yang sebelumnya menjadi simpul terakhir setelah dibalik)
+
+Algoritma untuk menggabungkan dua linked list Buat linked list baru :
+* Mulai dari simpul pertama dalam linked list pertama
+    * Ulangi langkah berikutnya untuk setiap simpul dalam linked list pertama: buat simpul baru dan masukkan data dari simpul saat ini, lalu tambahkan simpul baru ke linked list baru
+* Mulai dari simpul pertama dalam linked list kedua
+    * Ulangi langkah berikutnya untuk setiap simpul dalam linked list kedua: buat simpul baru dan masukkan data dari simpul saat ini, lalu tambahkan simpul baru ke linked list baru
+    * Kembalikan linked list baru yang berisi kedua linked list yang digabungkan
+
 Itulah beberapa algoritma umum yang berkaitan dengan linked list. Dalam pemrograman, linked list sering digunakan untuk menyimpan dan mengelola data yang terhubung secara dinamis, seperti dalam aplikasi pengolah kata, program permainan, dan sistem manajemen database. Memahami algoritma linked list dan konsep pemrograman yang terkait dapat membantu kamu menjadi seorang programmer yang lebih terampil dan efektif.
 
 Selain algoritma-algoritma yang telah dijelaskan sebelumnya, ada juga beberapa operasi umum yang sering dilakukan pada linked list, yaitu:
+* Menambahkan simpul di awal linked list (insertion at the beginning)
+* Buat simpul baru dan masukkan data ke dalamnya
+* Atur pointer simpul baru untuk menunjuk ke simpul pertama dalam linked list
+* Atur pointer head untuk menunjuk ke simpul baru
+* Menambahkan simpul di akhir linked list (insertion at the end)
+* Buat simpul baru dan masukkan data ke dalamnya
+* Mulai dari simpul pertama dalam linked list
+* Ulangi langkah berikutnya untuk setiap simpul dalam linked list: pindahkan pointer ke simpul berikutnya sampai pointer menunjuk ke NULL
+* Atur pointer simpul terakhir untuk menunjuk ke simpul baru
+* Menambahkan simpul pada posisi tertentu dalam linked list (insertion at a specific position)
+* Buat simpul baru dan masukkan data ke dalamnya
+* Mulai dari simpul pertama dalam linked list
+* Ulangi langkah berikutnya untuk setiap simpul dalam linked list: pindahkan pointer ke simpul berikutnya sampai mencapai posisi yang diinginkan
+* Atur pointer simpul baru untuk menunjuk ke simpul pada posisi berikutnya
+* Atur pointer simpul pada posisi sebelumnya untuk menunjuk ke simpul baru
+* Menghapus simpul dari linked list
+* Mulai dari simpul pertama dalam linked list
+* Ulangi langkah berikutnya untuk setiap simpul dalam linked list: periksa apakah data simpul saat ini sama dengan data yang ingin dihapus
+* Jika data ditemukan, atur pointer simpul sebelumnya untuk menunjuk ke simpul berikutnya (atau NULL jika simpul dihapus adalah simpul pertama)
+* Jika data tidak ditemukan, kembalikan pesan error
 
-Menambahkan simpul di awal linked list (insertion at the beginning)
-Buat simpul baru dan masukkan data ke dalamnya
-Atur pointer simpul baru untuk menunjuk ke simpul pertama dalam linked list
-Atur pointer head untuk menunjuk ke simpul baru
-Menambahkan simpul di akhir linked list (insertion at the end)
-Buat simpul baru dan masukkan data ke dalamnya
-Mulai dari simpul pertama dalam linked list
-Ulangi langkah berikutnya untuk setiap simpul dalam linked list: pindahkan pointer ke simpul berikutnya sampai pointer menunjuk ke NULL
-Atur pointer simpul terakhir untuk menunjuk ke simpul baru
-Menambahkan simpul pada posisi tertentu dalam linked list (insertion at a specific position)
-Buat simpul baru dan masukkan data ke dalamnya
-Mulai dari simpul pertama dalam linked list
-Ulangi langkah berikutnya untuk setiap simpul dalam linked list: pindahkan pointer ke simpul berikutnya sampai mencapai posisi yang diinginkan
-Atur pointer simpul baru untuk menunjuk ke simpul pada posisi berikutnya
-Atur pointer simpul pada posisi sebelumnya untuk menunjuk ke simpul baru
-Menghapus simpul dari linked list
-Mulai dari simpul pertama dalam linked list
-Ulangi langkah berikutnya untuk setiap simpul dalam linked list: periksa apakah data simpul saat ini sama dengan data yang ingin dihapus
-Jika data ditemukan, atur pointer simpul sebelumnya untuk menunjuk ke simpul berikutnya (atau NULL jika simpul dihapus adalah simpul pertama)
-Jika data tidak ditemukan, kembalikan pesan error
 Dengan memahami operasi-operasi ini dan algoritma-algoritma terkait, kamu dapat membuat program yang efektif dan efisien untuk mengelola linked list. Selain itu, kamu juga dapat mempelajari berbagai struktur data lainnya yang dapat digunakan untuk menyimpan dan mengelola data dalam aplikasi pemrograman.
