@@ -10,22 +10,22 @@ Algoritma untuk membuat linked list biasanya terdiri dari langkah-langkah beriku
 * Atur pointer head menunjuk ke simpul pertama dalam linked list.
 
 Algoritma untuk menambahkan simpul baru ke akhir linked list terdiri dari langkah-langkah berikut:
+* Jika linked list kosong, maka buat simpul baru dan atur pointer head untuk menunjuk ke simpul tersebut.
+* Jika linked list tidak kosong, cari simpul terakhir dalam linked list.
+* Buat simpul baru dan atur simpul terakhir dalam linked list menunjuk ke simpul baru.
 
-Jika linked list kosong, maka buat simpul baru dan atur pointer head untuk menunjuk ke simpul tersebut.
-Jika linked list tidak kosong, cari simpul terakhir dalam linked list.
-Buat simpul baru dan atur simpul terakhir dalam linked list menunjuk ke simpul baru.
 Algoritma untuk menghapus simpul dari linked list terdiri dari langkah-langkah berikut:
+* Cari simpul yang akan dihapus.
+* Jika simpul yang akan dihapus adalah simpul pertama dalam linked list, atur pointer head untuk menunjuk ke simpul berikutnya.
+* Jika simpul yang akan dihapus bukan simpul pertama dalam linked list, atur pointer dari simpul sebelum simpul yang akan dihapus untuk menunjuk ke simpul setelah simpul yang akan dihapus.
+* Hapus simpul yang diinginkan dari memori.
 
-Cari simpul yang akan dihapus.
-Jika simpul yang akan dihapus adalah simpul pertama dalam linked list, atur pointer head untuk menunjuk ke simpul berikutnya.
-Jika simpul yang akan dihapus bukan simpul pertama dalam linked list, atur pointer dari simpul sebelum simpul yang akan dihapus untuk menunjuk ke simpul setelah simpul yang akan dihapus.
-Hapus simpul yang diinginkan dari memori.
 Algoritma untuk mencetak isi linked list terdiri dari langkah-langkah berikut:
+* Mulai dari simpul pertama dalam linked list.
+* Cetak data dari simpul tersebut.
+* Pindah ke simpul berikutnya dalam linked list.
+* Ulangi langkah 2-3 sampai semua simpul dalam linked list telah dicetak.
 
-Mulai dari simpul pertama dalam linked list.
-Cetak data dari simpul tersebut.
-Pindah ke simpul berikutnya dalam linked list.
-Ulangi langkah 2-3 sampai semua simpul dalam linked list telah dicetak.
 Pada umumnya, algoritma untuk linked list akan selalu melibatkan pointer untuk menunjuk ke simpul lain dalam linked list. Oleh karena itu, pemahaman yang kuat tentang konsep pointer dalam pemrograman sangat penting untuk menguasai algoritma linked list dengan baik.
 
 Beberapa algoritma umum lainnya yang berkaitan dengan linked list antara lain:
