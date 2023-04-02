@@ -1,12 +1,14 @@
+# Linked list
+
 Linked list adalah struktur data dinamis yang terdiri dari serangkaian simpul (node) yang saling terhubung. Setiap simpul dalam linked list terdiri dari dua komponen, yaitu data dan pointer yang menunjukkan simpul berikutnya dalam linked list.
 
 Algoritma untuk membuat linked list biasanya terdiri dari langkah-langkah berikut:
+* Inisialisasi pointer head sebagai NULL.
+* Buat sebuah simpul baru dengan alokasi memori dinamis.
+* Masukkan data ke dalam simpul baru tersebut.
+* Buat simpul baru menunjuk ke simpul yang sebelumnya dengan mengatur pointer dari simpul sebelumnya ke simpul baru.
+* Atur pointer head menunjuk ke simpul pertama dalam linked list.
 
-Inisialisasi pointer head sebagai NULL.
-Buat sebuah simpul baru dengan alokasi memori dinamis.
-Masukkan data ke dalam simpul baru tersebut.
-Buat simpul baru menunjuk ke simpul yang sebelumnya dengan mengatur pointer dari simpul sebelumnya ke simpul baru.
-Atur pointer head menunjuk ke simpul pertama dalam linked list.
 Algoritma untuk menambahkan simpul baru ke akhir linked list terdiri dari langkah-langkah berikut:
 
 Jika linked list kosong, maka buat simpul baru dan atur pointer head untuk menunjuk ke simpul tersebut.
