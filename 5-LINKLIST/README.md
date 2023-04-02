@@ -29,23 +29,16 @@ Algoritma untuk mencetak isi linked list terdiri dari langkah-langkah berikut:
 Pada umumnya, algoritma untuk linked list akan selalu melibatkan pointer untuk menunjuk ke simpul lain dalam linked list. Oleh karena itu, pemahaman yang kuat tentang konsep pointer dalam pemrograman sangat penting untuk menguasai algoritma linked list dengan baik.
 
 Beberapa algoritma umum lainnya yang berkaitan dengan linked list antara lain:
-
-Algoritma untuk menghitung jumlah simpul dalam linked list
-Mulai dari simpul pertama dalam linked list
-Ulangi langkah berikutnya untuk setiap simpul dalam linked list: tambahkan 1 ke hitungan
-Kembalikan hitungan
-Algoritma untuk mencari simpul tertentu dalam linked list
-Mulai dari simpul pertama dalam linked list
-Ulangi langkah berikutnya untuk setiap simpul dalam linked list: periksa apakah data simpul saat ini sama dengan data yang dicari
-Jika data ditemukan, kembalikan simpul tersebut, jika tidak, kembalikan NULL
-Algoritma untuk membalik linked list
-Inisialisasi tiga pointer: prev, curr, dan next
+* Algoritma untuk menghitung jumlah simpul dalam linked list Mulai dari simpul pertama dalam linked list Ulangi langkah berikutnya untuk setiap simpul dalam linked list: tambahkan 1 ke hitungan Kembalikan hitungan
+* Algoritma untuk mencari simpul tertentu dalam linked list Mulai dari simpul pertama dalam linked list Ulangi langkah berikutnya untuk setiap simpul dalam linked list: periksa apakah data simpul saat ini sama dengan data yang dicari Jika data ditemukan, kembalikan simpul tersebut, jika tidak, kembalikan NULL
+* Algoritma untuk membalik linked list Inisialisasi tiga pointer: prev, curr, dan next
 Atur pointer curr menunjuk ke simpul pertama dalam linked list, dan atur pointer prev dan next menjadi NULL
+
 Ulangi langkah berikutnya untuk setiap simpul dalam linked list:
-a. Atur pointer next untuk menunjuk ke simpul berikutnya dalam linked list
-b. Atur pointer curr untuk menunjuk ke simpul sebelumnya dalam linked list
-c. Atur pointer prev untuk menunjuk ke simpul saat ini
-d. Pindahkan pointer curr dan next ke simpul berikutnya dalam linked list
+1. Atur pointer next untuk menunjuk ke simpul berikutnya dalam linked list
+2. Atur pointer curr untuk menunjuk ke simpul sebelumnya dalam linked list
+3. Atur pointer prev untuk menunjuk ke simpul saat ini
+4. Pindahkan pointer curr dan next ke simpul berikutnya dalam linked list
 Atur pointer head untuk menunjuk ke simpul terakhir dalam linked list (simpul yang sebelumnya menjadi simpul terakhir setelah dibalik)
 Algoritma untuk menggabungkan dua linked list
 Buat linked list baru
